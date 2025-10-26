@@ -1,0 +1,67 @@
+Create a complete front-end demo for a super modern, aesthetic IT ticketing web tool called 'ONE Connect', heavily inspired by the provided screenshots. The demo must be built strictly using only HTML, CSS, and vanilla JavaScript.
+
+The application should have the following features:
+
+Login System (Dummy):
+
+A single login page with a toggle to select the user role: User, Support Team, or Vendor.
+
+Users log in with a 'Cust ID' (e.g., CUST12345).
+
+Support Team logs in with an 'Emp ID' (e.g., EMP54321).
+
+Vendors log in with a 'Ven ID' (e.g., VEN98765).
+
+Use dummy credentials for validation.
+
+MFA & SMS Demo:
+
+After a successful login, display a modal for a dummy MFA code (e.g., 'Enter code from your authenticator app').
+
+Include a link to switch to a dummy SMS verification modal (e.g., 'Enter code sent to your mobile').
+
+These modals should lead to the main dashboard upon 'verification'.
+
+Main User Dashboard:
+
+Design a two-column layout mirroring the provided screenshots.
+
+Header: Include a logo, a prominent search bar, and a user profile icon.
+
+Search Functionality: The search bar must filter a predefined list of catalog items, incident types, KB articles, and the user's past tickets in real-time.
+
+Catalog & Ticket Creation:
+
+Display a grid of "Popular topics" or "Catalog items" (e.g., 'Break-Fix Support', 'Access Request', 'Hardware Services') as cards.
+
+When a user clicks a catalog item, a ticket creation modal should open with the category and title pre-filled.
+
+Provide a button for the user to create a ticket manually, which opens the modal with blank fields.
+
+User Information:
+
+Display panels for 'My Active Items' (Tasks, Requests), 'My Assets' (showing dummy hardware), and a list of 'My Past Tickets'.
+
+SLA Management:
+
+Define separate dummy SLA resolution times for the Support Team and the Vendor Team.
+
+Include three priority levels with distinct SLAs for each team:
+
+High Priority: (e.g., Support: 4 hours, Vendor: 8 hours)
+
+Medium Priority: (e.g., Support: 24 hours, Vendor: 48 hours)
+
+Low Priority: (e.g., Support: 5 days, Vendor: 7 days)
+
+When a ticket is created, automatically calculate and display the 'Resolution Due' date and time based on the priority and assigned team.
+
+Design and Aesthetics:
+
+Use the color palette from the screenshots (deep blues, purples, and vibrant gradients).
+
+All elements like cards, buttons, and inputs should be modern with rounded corners, subtle shadows, and smooth hover effects.
+
+Use a modern sans-serif font (like Poppins) and a comprehensive icon library (like Font Awesome) to match the visual style.
+
+The entire experience should feel clean, professional, and intuitive.
